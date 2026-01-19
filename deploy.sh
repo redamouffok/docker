@@ -58,6 +58,8 @@ docker buildx version
 
 newgrp docker 
 
+docker plugin install grafana/loki-docker-driver:latest --alias loki --grant-all-permissions
+
 echo ">>> Installation terminée avec succès ✅"
 echo "⚠️ Déconnecte-toi/reconnecte-toi ou exécute 'newgrp docker' pour appliquer le changement de groupe."
 
