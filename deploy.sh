@@ -56,7 +56,8 @@ docker --version
 docker compose version
 docker buildx version
 
+newgrp docker 
+
 echo ">>> Installation terminée avec succès ✅"
 echo "⚠️ Déconnecte-toi/reconnecte-toi ou exécute 'newgrp docker' pour appliquer le changement de groupe."
 
-newgrp docker 
