@@ -5,6 +5,7 @@ set -e
 # Script installation Docker CE
 # ==============================
 
+
 echo ">>> Mise à jour du système"
 sudo apt-get update -y
 sudo apt-get upgrade -y
